@@ -16,17 +16,19 @@ public class TareaPOOConstructorCristianPonce {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Persona persona1, persona2, persona3, persona4;
+        Persona persona1, persona2, persona3, persona4,persona5;
 
         persona1 = new Persona();
         persona2 = new Persona(34234678);
         persona3 = new Persona(34234678 , "Carlos");
         persona4 = new Persona(34234678, "Carlos", "Perez");
-
+        persona5 = new Persona(34234678, "Carlos", "Perez", 32);
+        
         persona1.imprimir();
         persona2.imprimir();
         persona3.imprimir();
         persona4.imprimir();
+        persona5.imprimir();
     }
 }
     
